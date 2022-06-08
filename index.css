@@ -235,6 +235,13 @@ body {
   display: block;
 }
 
+@media screen and (max-width: 425px) {
+  .wrapper__item_scroll::after {
+    width: 500px;
+    height: 200px;
+  }
+}
+
 .wrapper__item_scroll::before {
   position: absolute;
   content: "";
@@ -333,6 +340,12 @@ body {
   max-width: 185px;
 }
 
+@media screen and (max-width: 425px) {
+  .about__title {
+    font-size: 16px;
+  }
+}
+
 .about__text {
   position: absolute;
   overflow-y: auto;
@@ -353,6 +366,12 @@ body {
   padding-right: 108px;
   padding-top: 15px;
   z-index: 2;
+}
+
+@media screen and (max-width: 425px) {
+  .about__text p {
+    font-size: 14px;
+  }
 }
 
 .about__text::-webkit-scrollbar {
