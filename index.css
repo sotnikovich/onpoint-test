@@ -363,7 +363,10 @@ body {
 .about__text::-webkit-scrollbar-thumb {
   background-color: #ff107c;
   border-radius: 20px;
+  -webkit-border-radius: 20px;
   box-shadow: inset -7px -5px 10px -7px #ffffff, inset 0px 1px 6px 1px #686868;
+  -webkit-box-shadow: inset -7px -5px 10px -7px #ffffff,
+    inset 0px 1px 6px 1px #686868;
 }
 
 .about__animation {
